@@ -62,7 +62,9 @@ DBSCAN (по умолчанию)
 
 # 4) Инструкция по запуску:
 ## 1. Установка зависимостей:
-```python
+```bash
+git clone https://github.com/yachyz/FACE_RECOGNITION_AI.git
+cd FACE_RECOGNITION_AI
 pip install -r requirements.txt
 ```
 ## 2. Подготовка моделей:
@@ -72,7 +74,7 @@ pip install -r requirements.txt
 + Также необходимо создать папку result/ и images/
 ## 3. Запуск пайплайна (консоль):
 + Поместите ваши фотографии в папку images/ после чего в консоле напишите:
-```python
+```bash
  python main.py
  ```
 + Результаты сохраняются в папку results/:
@@ -81,7 +83,7 @@ pip install -r requirements.txt
 + results/result_<filename>.jpg — визуализированные фото.
 ## 4) Запуск UI (Streamlit):
 + Напишите в консоле:
-```python
+```bash
 streamlit run ui.py
 ```
 + После чего загружайте фото через интерфейс.
